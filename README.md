@@ -134,16 +134,26 @@ Tasksets are generated using the UUniFast algorithm to produce task sets with co
 
 The `jupyter/` folder includes:
 
-- Jupyter notebooks to interact with the accelerator
-- Precompiled overlays (`.bit`, `.hwh`)
-- JSON tasksets for testing
+- Jupyter notebooks to interact with the accelerator  
+- Precompiled overlays (`.bit`, `.hwh`)  
+- JSON tasksets for testing  
 
-### Workflow:
-1. Load overlay
-2. Interface with the accelerator via MMIO by writing task parameters to AXI registers and triggering execution
-3. Run accelerator
-4. Retrieve results
-5. Evaluate performance
+### Setup on KRIA
+
+All files inside the `jupyter/` folder must be copied to a directory accessible from the PYNQ environment on the Kria board (e.g., `/home/xilinx/jupyter_notebooks/`).
+
+The provided `.bit` and `.hwh` files are **precompiled at a 20 MHz clock frequency**.
+
+> ⚠️ If any modification is made to the hardware design (RTL, IP, or block design), the bitstream must be regenerated in Vivado.  
+> The newly generated `.bit` and `.hwh` files must then replace the existing ones in the PYNQ directory before running the notebooks.
+
+### Notebook Workflow
+
+1. Load overlay  
+2. Interface with the accelerator via MMIO by writing task parameters to AXI registers and triggering execution  
+3. Run accelerator  
+4. Retrieve results  
+5. Evaluate performance  
 
 ---
 
