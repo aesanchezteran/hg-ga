@@ -90,6 +90,7 @@ set files [list \
  "[file normalize "$origin_dir/../sim/top_tb.sv"]"\
  "[file normalize "$origin_dir/../sim/top_tb_behav.wcfg"]"\
  "[file normalize "$origin_dir/../sim/tasksets_300_9.svh"]"\
+ "[file normalize "$origin_dir/../sim/tasksets_500.svh"]"\
  "[file normalize "$origin_dir/../sim/tasksets_300_8.svh"]"\
 ]
   
@@ -392,6 +393,7 @@ set obj [get_filesets sim_1]
 set files [list \
   [file normalize "$origin_dir/../sim/top_tb.sv"]\
   [file normalize "$origin_dir/../sim/top_tb_behav.wcfg"]\
+  [file normalize "$origin_dir/../sim/tasksets_500.svh"]\
   [file normalize "$origin_dir/../sim/tasksets_300_9.svh"]\
   [file normalize "$origin_dir/../sim/tasksets_300_8.svh"]\
 ]
@@ -402,6 +404,7 @@ set file_obj [get_files -of_objects [get_filesets sim_1] [list "*top_tb.sv"]]
 set_property -name "file_type" -value "SystemVerilog" -objects $file_obj
 
 foreach file {
+  tasksets_500.svh	
   tasksets_300_9.svh
   tasksets_300_8.svh
 } {

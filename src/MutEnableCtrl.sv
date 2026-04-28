@@ -54,7 +54,7 @@ module MutEnableCtrl #(
     
                 // wait 2 cycles after pipeline_enable
                 if (!started) begin
-                    if (start_delay == 2) begin
+                    if (start_delay == 3) begin
                         mut_enable <= 1'b1;
                         started    <= 1'b1;
                         counter    <= 6'd0;
