@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="14.269196001 ms"></ZoomEndTime>
+      <Cursor1Time time="1.598060667 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="274"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="52" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/exec_reg" type="array">
+      <obj_property name="ElementShortName">exec_reg[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_reg[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/deadline_reg" type="array">
+      <obj_property name="ElementShortName">deadline_reg[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">deadline_reg[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pipeline_enable" type="logic">
+      <obj_property name="ElementShortName">pipeline_enable</obj_property>
+      <obj_property name="ObjectShortName">pipeline_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/elite_best_fit" type="array">
+      <obj_property name="ElementShortName">elite_best_fit[22:0]</obj_property>
+      <obj_property name="ObjectShortName">elite_best_fit[22:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider6097">
+      <obj_property name="label">FLAT ARRAYS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/exec_reg_flat" type="array">
+      <obj_property name="ElementShortName">exec_reg_flat[511:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_reg_flat[511:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/deadline_reg_flat" type="array">
+      <obj_property name="ElementShortName">deadline_reg_flat[511:0]</obj_property>
+      <obj_property name="ObjectShortName">deadline_reg_flat[511:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/elite_best_task_flat" type="array">
+      <obj_property name="ElementShortName">elite_best_task_flat[383:0]</obj_property>
+      <obj_property name="ObjectShortName">elite_best_task_flat[383:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/elite_best_proc_flat" type="array">
+      <obj_property name="ElementShortName">elite_best_proc_flat[255:0]</obj_property>
+      <obj_property name="ObjectShortName">elite_best_proc_flat[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider8422">
+      <obj_property name="label">Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/pipeline_enable_ctrl" type="logic">
+      <obj_property name="ElementShortName">pipeline_enable_ctrl</obj_property>
+      <obj_property name="ObjectShortName">pipeline_enable_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/restart" type="logic">
+      <obj_property name="ElementShortName">restart</obj_property>
+      <obj_property name="ObjectShortName">restart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/count" type="array">
+      <obj_property name="ElementShortName">count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">count[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_elite_keeper/select_start" type="logic">
+      <obj_property name="ElementShortName">select_start</obj_property>
+      <obj_property name="ObjectShortName">select_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_elite_keeper/better_fit" type="logic">
+      <obj_property name="ElementShortName">better_fit</obj_property>
+      <obj_property name="ObjectShortName">better_fit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_elite_keeper/cap_idx" type="array">
+      <obj_property name="ElementShortName">cap_idx[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cap_idx[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_elite_keeper/rd_task_in" type="array">
+      <obj_property name="ElementShortName">rd_task_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_task_in[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_elite_keeper/rd_proc_in" type="array">
+      <obj_property name="ElementShortName">rd_proc_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_proc_in[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/elite_best_task" type="array">
+      <obj_property name="ElementShortName">elite_best_task[0:63][5:0]</obj_property>
+      <obj_property name="ObjectShortName">elite_best_task[0:63][5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/elite_best_proc" type="array">
+      <obj_property name="ElementShortName">elite_best_proc[0:63][3:0]</obj_property>
+      <obj_property name="ObjectShortName">elite_best_proc[0:63][3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/elite_best_task" type="array">
+      <obj_property name="ElementShortName">elite_best_task[0:63][5:0]</obj_property>
+      <obj_property name="ObjectShortName">elite_best_task[0:63][5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[0]" type="array">
+         <obj_property name="ElementShortName">[0][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[1]" type="array">
+         <obj_property name="ElementShortName">[1][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[2]" type="array">
+         <obj_property name="ElementShortName">[2][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[3]" type="array">
+         <obj_property name="ElementShortName">[3][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[4]" type="array">
+         <obj_property name="ElementShortName">[4][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[5]" type="array">
+         <obj_property name="ElementShortName">[5][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[6]" type="array">
+         <obj_property name="ElementShortName">[6][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[7]" type="array">
+         <obj_property name="ElementShortName">[7][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[8]" type="array">
+         <obj_property name="ElementShortName">[8][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[9]" type="array">
+         <obj_property name="ElementShortName">[9][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[10]" type="array">
+         <obj_property name="ElementShortName">[10][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[11]" type="array">
+         <obj_property name="ElementShortName">[11][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[12]" type="array">
+         <obj_property name="ElementShortName">[12][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[13]" type="array">
+         <obj_property name="ElementShortName">[13][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[14]" type="array">
+         <obj_property name="ElementShortName">[14][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[15]" type="array">
+         <obj_property name="ElementShortName">[15][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[16]" type="array">
+         <obj_property name="ElementShortName">[16][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[17]" type="array">
+         <obj_property name="ElementShortName">[17][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[18]" type="array">
+         <obj_property name="ElementShortName">[18][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[19]" type="array">
+         <obj_property name="ElementShortName">[19][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[20]" type="array">
+         <obj_property name="ElementShortName">[20][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[21]" type="array">
+         <obj_property name="ElementShortName">[21][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[22]" type="array">
+         <obj_property name="ElementShortName">[22][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[23]" type="array">
+         <obj_property name="ElementShortName">[23][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[24]" type="array">
+         <obj_property name="ElementShortName">[24][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[25]" type="array">
+         <obj_property name="ElementShortName">[25][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[26]" type="array">
+         <obj_property name="ElementShortName">[26][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[27]" type="array">
+         <obj_property name="ElementShortName">[27][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[28]" type="array">
+         <obj_property name="ElementShortName">[28][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[29]" type="array">
+         <obj_property name="ElementShortName">[29][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[30]" type="array">
+         <obj_property name="ElementShortName">[30][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[31]" type="array">
+         <obj_property name="ElementShortName">[31][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[32]" type="array">
+         <obj_property name="ElementShortName">[32][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[33]" type="array">
+         <obj_property name="ElementShortName">[33][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[34]" type="array">
+         <obj_property name="ElementShortName">[34][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[35]" type="array">
+         <obj_property name="ElementShortName">[35][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[36]" type="array">
+         <obj_property name="ElementShortName">[36][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[37]" type="array">
+         <obj_property name="ElementShortName">[37][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[38]" type="array">
+         <obj_property name="ElementShortName">[38][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[39]" type="array">
+         <obj_property name="ElementShortName">[39][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[40]" type="array">
+         <obj_property name="ElementShortName">[40][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[41]" type="array">
+         <obj_property name="ElementShortName">[41][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[42]" type="array">
+         <obj_property name="ElementShortName">[42][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[43]" type="array">
+         <obj_property name="ElementShortName">[43][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[44]" type="array">
+         <obj_property name="ElementShortName">[44][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[45]" type="array">
+         <obj_property name="ElementShortName">[45][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[46]" type="array">
+         <obj_property name="ElementShortName">[46][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[47]" type="array">
+         <obj_property name="ElementShortName">[47][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[48]" type="array">
+         <obj_property name="ElementShortName">[48][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[49]" type="array">
+         <obj_property name="ElementShortName">[49][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[50]" type="array">
+         <obj_property name="ElementShortName">[50][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[51]" type="array">
+         <obj_property name="ElementShortName">[51][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[52]" type="array">
+         <obj_property name="ElementShortName">[52][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[53]" type="array">
+         <obj_property name="ElementShortName">[53][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[54]" type="array">
+         <obj_property name="ElementShortName">[54][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[55]" type="array">
+         <obj_property name="ElementShortName">[55][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[56]" type="array">
+         <obj_property name="ElementShortName">[56][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[57]" type="array">
+         <obj_property name="ElementShortName">[57][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[58]" type="array">
+         <obj_property name="ElementShortName">[58][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[59]" type="array">
+         <obj_property name="ElementShortName">[59][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[60]" type="array">
+         <obj_property name="ElementShortName">[60][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[61]" type="array">
+         <obj_property name="ElementShortName">[61][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[62]" type="array">
+         <obj_property name="ElementShortName">[62][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/dut/elite_best_task[63]" type="array">
+         <obj_property name="ElementShortName">[63][5:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/elite_best_proc" type="array">
+      <obj_property name="ElementShortName">elite_best_proc[0:63][3:0]</obj_property>
+      <obj_property name="ObjectShortName">elite_best_proc[0:63][3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_elite_keeper/best_fit" type="array">
+      <obj_property name="ElementShortName">best_fit[31:0]</obj_property>
+      <obj_property name="ObjectShortName">best_fit[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider8620">
+      <obj_property name="label">BRAM Load</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/\g_task_bram[0].u_bram /w_en" type="logic">
+      <obj_property name="ElementShortName">w_en</obj_property>
+      <obj_property name="ObjectShortName">w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/\g_task_bram[0].u_bram /r_en" type="logic">
+      <obj_property name="ElementShortName">r_en</obj_property>
+      <obj_property name="ObjectShortName">r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/\g_task_bram[0].u_bram /exec_mem" type="array">
+      <obj_property name="ElementShortName">exec_mem[0:63][7:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_mem[0:63][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/\g_task_bram[0].u_bram /dead_mem" type="array">
+      <obj_property name="ElementShortName">dead_mem[0:63][7:0]</obj_property>
+      <obj_property name="ObjectShortName">dead_mem[0:63][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider8791">
+      <obj_property name="label">Mutation</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/mut_enable" type="logic">
+      <obj_property name="ElementShortName">mut_enable</obj_property>
+      <obj_property name="ObjectShortName">mut_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/task_c21_mut" type="array">
+      <obj_property name="ElementShortName">task_c21_mut[5:0]</obj_property>
+      <obj_property name="ObjectShortName">task_c21_mut[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/rand_task1" type="array">
+      <obj_property name="ElementShortName">rand_task1[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rand_task1[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/rand_task2" type="array">
+      <obj_property name="ElementShortName">rand_task2[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rand_task2[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/task_c21_mut_d" type="array">
+      <obj_property name="ElementShortName">task_c21_mut_d[5:0]</obj_property>
+      <obj_property name="ObjectShortName">task_c21_mut_d[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/task_c12_mut" type="array">
+      <obj_property name="ElementShortName">task_c12_mut[5:0]</obj_property>
+      <obj_property name="ObjectShortName">task_c12_mut[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/rand_task3" type="array">
+      <obj_property name="ElementShortName">rand_task3[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rand_task3[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/rand_task4" type="array">
+      <obj_property name="ElementShortName">rand_task4[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rand_task4[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_mutation/task_c12_mut_d" type="array">
+      <obj_property name="ElementShortName">task_c12_mut_d[5:0]</obj_property>
+      <obj_property name="ObjectShortName">task_c12_mut_d[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider9524">
+      <obj_property name="label">Crossover</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_crossover/proc_id_1" type="array">
+      <obj_property name="ElementShortName">proc_id_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">proc_id_1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_crossover/task_id_1" type="array">
+      <obj_property name="ElementShortName">task_id_1[5:0]</obj_property>
+      <obj_property name="ObjectShortName">task_id_1[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_crossover/proc_id_2" type="array">
+      <obj_property name="ElementShortName">proc_id_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">proc_id_2[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_crossover/task_id_2" type="array">
+      <obj_property name="ElementShortName">task_id_2[5:0]</obj_property>
+      <obj_property name="ObjectShortName">task_id_2[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_crossover/proc_c12" type="array">
+      <obj_property name="ElementShortName">proc_c12[3:0]</obj_property>
+      <obj_property name="ObjectShortName">proc_c12[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_crossover/task_c12" type="array">
+      <obj_property name="ElementShortName">task_c12[5:0]</obj_property>
+      <obj_property name="ObjectShortName">task_c12[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_crossover/proc_c21" type="array">
+      <obj_property name="ElementShortName">proc_c21[3:0]</obj_property>
+      <obj_property name="ObjectShortName">proc_c21[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/dut/u_crossover/task_c21" type="array">
+      <obj_property name="ElementShortName">task_c21[5:0]</obj_property>
+      <obj_property name="ObjectShortName">task_c21[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
